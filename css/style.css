@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* Structures */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック Medium", YuGothic, YuGothicM, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  padding: 0 5px;
+}
+
+header {
+}
+
+.main-container {
+  display: flex;
+  align-items: flex-start;  
+  justify-content: space-between;
+}
+
+aside {
+  width: 200px;
+}
+
+main {
+  width: 715px;
+  padding: 19px 16px;
+}
+
+main h2 {
+  padding: 8px 15px;
+  margin: 0;
+}
+
+/* Skins */
+.text-secondary-dark {
+  color: #00914B;
+}
+
+.text-dark {
+  color: #6A6A6A;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.text-content {
+  line-height: 1.5;
+  font-size: 1.05em;
+}
+
+.text-header1 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.text-header2 {
+  font-size: 1.2em;
+  font-weight: 350;
+}
+
+.bg-primary {
+  background: #DFEBA6;
+}
+
+.bg-secondary-light {
+  background: #3DB57D;
+}
+
+.bg-white {
+  background: #FFFFFF;
+}
+
+.border-emergency {
+  border: solid 2px #ECACB5;
+}
